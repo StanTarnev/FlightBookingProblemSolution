@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlightBooking.Core\FlightBooking.Core.csproj">
+      <Project>{22f6b34b-9154-4944-b1fd-d5564e250ae9}</Project>
+      <Name>FlightBooking.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
